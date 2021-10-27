@@ -11,8 +11,8 @@ ZetCode PyQt5 教程
 """
 
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
-
+# from PyQt5.QtWidgets import QApplication, QWidget
+from PySide2.QtWidgets import QApplication, QWidget  # 可以执行
 
 if __name__ == '__main__':
 
